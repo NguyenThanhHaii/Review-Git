@@ -30,3 +30,5 @@ Conflict
 - git merge {branchname} : Hợp nhất nội dung nhánh branchname với nhánh hiện tại
 
 - git branch -d {branchname} : Xóa đi 1 branch
+
+- git commit : sử dụng sau khi xử lý conflict nhằm cập nhật lại merge
