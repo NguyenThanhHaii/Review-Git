@@ -42,3 +42,7 @@ Remote
 <!-- ---------------------------------------- -->
 
 - git push {link repo} {branchname}
+
+- git remote add origin {link repo} : lấy tên origin đại diện cho link repo
+
+- git clone {link repo} : clone repo từ remote về local
