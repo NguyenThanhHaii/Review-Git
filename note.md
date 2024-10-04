@@ -1,6 +1,8 @@
 # Terms
 
 Repository (Repo)
+Branch
+Conflict
 
 # Commands
 
@@ -26,3 +28,5 @@ Repository (Repo)
 - git checkout -b {branchname} : Tạo 1 nhánh mới và di chuyển đến nhánh đó
 
 - git merge {branchname} : Hợp nhất nội dung nhánh branchname với nhánh hiện tại
+
+- git branch -d {branchname} : Xóa đi 1 branch
