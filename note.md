@@ -3,6 +3,8 @@
 Repository (Repo)
 Branch
 Conflict
+Local
+Remote
 
 # Commands
 
@@ -14,6 +16,8 @@ Conflict
 
 - git reset : Hủy bỏ các file ở hàng chờ
 
+<!-- ---------------------------------------- -->
+
 - git commit -m '....' : Lưu lại file trong hàng chờ với thông điệp, lần đầu tạo('initial commit)
 
 - git log : Xem lại các commit
@@ -22,6 +26,8 @@ Conflict
 
 - git checkout {id} : di chuyển đến thời điểm commit.
   Để quay trở lại thời điểm hiện tại dùng (git checkout {branchname}) tên nhánh chúng ta muốn đến
+
+  <!-- ---------------------------------------- -->
 
 - git branch : Kiểm tra nhánh hiện tại
 
@@ -32,3 +38,7 @@ Conflict
 - git branch -d {branchname} : Xóa đi 1 branch
 
 - git commit : sử dụng sau khi xử lý conflict nhằm cập nhật lại merge
+
+<!-- ---------------------------------------- -->
+
+- git push {link repo} {branchname}
