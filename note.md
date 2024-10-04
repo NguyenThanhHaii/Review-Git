@@ -48,3 +48,7 @@ Remote
 - git clone {link repo} : clone repo từ remote về local
 
 - git push -u origin {branch name} : đẩy 1 nhánh lên github
+
+- git fetch origin : sao chép branch trên github về local
+
+- git checkout -b {branchname} origin/{branchname} : tạo tên branch trên local và sao chép branch trên github xuống
