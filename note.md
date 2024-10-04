@@ -24,3 +24,5 @@ Repository (Repo)
 - git branch : Kiểm tra nhánh hiện tại
 
 - git checkout -b {branchname} : Tạo 1 nhánh mới và di chuyển đến nhánh đó
+
+- git merge {branchname} : Hợp nhất nội dung nhánh branchname với nhánh hiện tại
