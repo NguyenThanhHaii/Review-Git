@@ -52,3 +52,9 @@ Remote
 - git fetch origin : sao chép branch trên github về local
 
 - git checkout -b {branchname} origin/{branchname} : tạo tên branch trên local và sao chép branch trên github xuống
+
+- git pull : sau khi pull trên github (giống merge) ta sử dụng để đồng bộ dữ liệu trên remote và local
+
+<!-- ---------------------------------------- -->
+
+- Khi muốn git bỏ qua file và ko muốn đẩy lên (như: .env, node_modules) ta tạo ra file có tên là .gitignore và điền các tên file mà muốn git bỏ qua
