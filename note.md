@@ -46,3 +46,5 @@ Remote
 - git remote add origin {link repo} : lấy tên origin đại diện cho link repo
 
 - git clone {link repo} : clone repo từ remote về local
+
+- git push -u origin {branch name} : đẩy 1 nhánh lên github
